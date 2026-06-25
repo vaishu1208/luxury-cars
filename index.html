@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luxury Cars Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🚘 Luxury Cars World</h1>
+    <p>Explore the most luxurious cars in the world</p>
+</header>
+
+<div class="controls">
+    <button onclick="sortCars()">Sort by Price</button>
+</div>
+<div style="text-align:center;margin:20px;">
+    <input type="text" id="search" placeholder="Search Car">
+    <button onclick="searchCar()">Search</button>
+</div>
+<div class="container" id="carContainer">
+
+    <div class="car-card" data-price="250000">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800" alt="Rolls Royce">
+        <h2>Rolls Royce Phantom</h2>
+        <p><strong>Price:</strong> $250,000</p>
+        <p><strong>Manufacturer Growth:</strong> 12%</p>
+    </div>
+
+    <div class="car-card" data-price="300000">
+        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800" alt="Bentley">
+        <h2>Bentley Continental GT</h2>
+        <p><strong>Price:</strong> $300,000</p>
+        <p><strong>Manufacturer Growth:</strong> 15%</p>
+    </div>
+
+    <div class="car-card" data-price="500000">
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800" alt="Lamborghini">
+        <h2>Lamborghini Aventador</h2>
+        <p><strong>Price:</strong> $500,000</p>
+        <p><strong>Manufacturer Growth:</strong> 18%</p>
+    </div>
+
+    <div class="car-card" data-price="450000">
+        <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=800" alt="Ferrari">
+        <h2>Ferrari SF90</h2>
+        <p><strong>Price:</strong> $450,000</p>
+        <p><strong>Manufacturer Growth:</strong> 20%</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+<h2 class="table-title">Luxury Cars Comparison Table</h2>
+
+<table>
+    <tr>
+        <th>Car</th>
+        <th>Image</th>
+        <th>Price</th>
+        <th>Top Speed</th>
+        <th>Horsepower</th>
+        <th>Growth %</th>
+        <th>Main Functions</th>
+    </tr>
+
+    <tr>
+        <td>Rolls Royce Phantom</td>
+        <td><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300"></td>
+        <td>$250,000</td>
+        <td>250 km/h</td>
+        <td>563 HP</td>
+        <td>12%</td>
+        <td>Luxury Interior, Massage Seats, Night Vision</td>
+    </tr>
+
+    <tr>
+        <td>Bentley Continental GT</td>
+        <td><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=300"></td>
+        <td>$300,000</td>
+        <td>333 km/h</td>
+        <td>650 HP</td>
+        <td>15%</td>
+        <td>4WD, Adaptive Cruise Control</td>
+    </tr>
+
+    <tr>
+        <td>Ferrari SF90</td>
+        <td><img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=300"></td>
+        <td>$450,000</td>
+        <td>340 km/h</td>
+        <td>986 HP</td>
+        <td>20%</td>
+        <td>Hybrid Engine, Launch Control</td>
+    </tr>
+
+    <tr>
+        <td>Lamborghini Aventador</td>
+        <td><img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=300"></td>
+        <td>$500,000</td>
+        <td>355 km/h</td>
+        <td>770 HP</td>
+        <td>18%</td>
+        <td>V12 Engine, Carbon Fiber Body</td>
+    </tr>
+
+    <tr>
+        <td>Bugatti Chiron</td>
+        <td><img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=300"></td>
+        <td>$3,000,000</td>
+        <td>420 km/h</td>
+        <td>1500 HP</td>
+        <td>25%</td>
+        <td>Quad Turbo Engine, Hyper Speed Mode</td>
+    </tr>
+
+    <tr>
+        <td>McLaren 720S</td>
+        <td><img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=300"></td>
+        <td>$320,000</td>
+        <td>341 km/h</td>
+        <td>710 HP</td>
+        <td>17%</td>
+        <td>Active Aerodynamics, Track Mode</td>
+    </tr>
+
+    <tr>
+        <td>Aston Martin DBS</td>
+        <td><img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=300"></td>
+        <td>$316,000</td>
+        <td>340 km/h</td>
+        <td>715 HP</td>
+        <td>13%</td>
+        <td>Luxury Cockpit, Smart Navigation</td>
+    </tr>
+
+</table>
+<footer class="thankyou">
+    <h2>🙏 Thank You for Visiting Luxury Cars World</h2>
+    <p>
+        We appreciate your visit to our luxury car showcase website.
+        Explore the world's finest automobiles and stay updated with
+        the latest innovations in luxury and performance vehicles.
+    </p>
+
+    <p class="quote">
+        "Luxury is in each detail." – Hubert de Givenchy
+    </p>
+
+    <h3>🚘 Drive Your Dream Car Today!</h3>
+
+    <p>
+        © 2026 Luxury Cars World | All Rights Reserved
+    </p>
+</footer>
+</body>
+</html>
